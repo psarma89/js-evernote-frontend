@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>EverNote Class Exercise</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <form id="note-search-form" class="" action="" method="post">
+          <h3>Search Notes:</h3>
+          <input id="note-search-input" type="text" name="" value="" size="50">
+        </form>
+      </div>
+      <div class="col-md-8">
+
+      </div>
+    </div>
+    <div class='row'>
+
+      <div id= "note-list" class='col-md-4'>
+        <h3>Notes List</h3>
+        <button type="button" name="button">Create</button>
+        <ul class="list-group">
+          <!-- li needs to have list-group-item -->
+        </ul>
+      </div>
+
+      <div class='detail col-md-8'>
+        <h3>Notes Details</h3>
+        <div id="list-details">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="src/user.js"></script>
+  <script src="src/note.js"></script>
+  <script src="src/adapter.js"></script>
+  <script src="src/index.js"></script>
+</body>
+</html>
